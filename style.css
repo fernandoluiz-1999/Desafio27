@@ -1,0 +1,123 @@
+body {
+    min-height: 100%;
+    background-color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.breadcrumbs {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs li {
+    display: inline-flex;
+    padding: 0 2rem ;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.breadcrumbs li:last-child {
+    border-radius: 5px;
+    background-color: grey;
+}
+
+.breadcrumbs>img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    /*margin-inline-end: 9%;
+    display: inline-block;
+    margin-top: 0;*/
+}
+
+.sushi-png h1 {
+    padding: 0;
+    font-size: smaller;
+    display: inline-block;
+    vertical-align: middle;
+    /*margin-right: 20px;*/
+    
+}
+
+.sushi-png h2 {
+    padding: 0;
+    font-size: xx-small;
+    margin-inline-end: 67%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sushi-png>img {
+    width: 100px;
+    height: 100px;
+    /*margin-left: 510px;*/
+    /*margin-right: 20px;;*/
+    display: inline-block;
+    vertical-align: middle;
+    margin-inline-start: 500px;
+}
+
+.sushi-png p {
+    background-color: red;
+    max-width: 70px;
+    border-radius: 5px;
+    font-size-adjust: inherit;
+}
+
+.prato-com-comida h1 {
+    font-size: smaller;
+    margin-left: 65%;
+}
+
+.prato-com-comida h2 {
+    font-size: xx-small;
+    margin-inline-end: 6%;
+    margin-left: 65%;
+}
+
+.prato-com-comida p {
+    color: red;
+    text-decoration: underline;
+    margin-left: 398px;
+    font-size: x-small;
+}
+
+.prato-com-comida img {
+    height:200px;
+    width: 200px;
+}
+
+.principais-pratos h1 {
+    text-align: center;
+    font-size: smaller;
+}
+
+.principais-pratos h2 {
+    font-size: medium;
+    display: inline-flex;
+}
+
+.Localizacao h1 {
+    margin-inline-start: 20px;
+}
+
+.Localizacao img {
+    width: 500px;
+    height: 250px;
+    margin-inline-start: 20px;
+}
+
+.Localizacao h2 {
+    font-size: xx-small;
+    text-align: center;
+}
+
+.Localizacao h3 {
+    font-size: xx-small;
+    text-align: center;
+    background-color: red;
+    max-width: 70px;
+    margin-inline-start: 270px;
+}
